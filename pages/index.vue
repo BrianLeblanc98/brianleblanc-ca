@@ -78,6 +78,10 @@
         </p>
       </div>
     </div>
+
+    <div id='text2'>
+      <p>More coming soon...</p>
+    </div>
   </div>
 </template>
 
@@ -158,6 +162,21 @@ function mouseLeaveLine() {
           transition: transform 350ms ease;
         }
       }
+    }
+  }
+
+  #text2 {
+    margin: auto;
+    margin-top: 5vh;
+    width: 70vw;
+
+    p {
+      color: grey;
+      font-family: 'Rubik', sans-serif;
+      // text-transform: uppercase;
+      font-size: 4vw;
+      margin: 0;
+      cursor: default;
     }
   }
 }
