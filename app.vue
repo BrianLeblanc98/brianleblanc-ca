@@ -4,8 +4,9 @@
   </div>
 </template>
 
-<stlye lang='scss'>
+<style lang='scss'>
 body {
-  background: black;
+  background-color: black;
+  margin: 0;
 }
-</stlye>
+</style>
