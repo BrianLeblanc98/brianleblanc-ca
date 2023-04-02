@@ -139,7 +139,6 @@ function mouseLeaveLine() {
 
     p {
       color: white;
-      font-family: 'Rubik', sans-serif;
       text-transform: uppercase;
       font-size: 6vw;
       margin: 0;
@@ -172,7 +171,6 @@ function mouseLeaveLine() {
 
     p {
       color: grey;
-      font-family: 'Rubik', sans-serif;
       font-size: 4vw;
       margin: 0;
       cursor: default;
