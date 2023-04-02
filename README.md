@@ -1,5 +1,9 @@
 # Brian LeBlanc personal website
-https://www.brianleblanc.ca
+https://www.brianleblanc.ca/
 
-
-My personal website
+## Tools/Resources used
+- [Nuxt3](https://nuxt.com/)
+- [Sass](https://sass-lang.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Vercel](https://vercel.com)
+---
