@@ -4,5 +4,8 @@ export default defineNuxtConfig({
     head: {
       title: 'Brian LeBlanc'
     }
-  }
-})
+  },
+  css: [
+    '@fortawesome/fontawesome-svg-core/styles.css'
+  ]
+});
