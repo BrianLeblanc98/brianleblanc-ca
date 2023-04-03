@@ -134,7 +134,6 @@ function mouseLeaveLine() {
 .content {
   #text {
     margin: auto;
-    margin-top: 5vh;
     width: 70vw;
 
     p {
