@@ -6,4 +6,5 @@ https://www.brianleblanc.ca/
 - [Sass](https://sass-lang.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Vercel](https://vercel.com)
+- [Midjourney](https://www.midjourney.com/)
 ---
