@@ -5,7 +5,9 @@
         <font-awesome-icon icon='fa-solid fa-home' class='fa-fw fa-lg'/>
       </NuxtLink>
       <div class='link'>
-        <img v-if='user' :src='user.photoURL as any' class='avatar'>
+        <NuxtLink v-if='user' to='/account'>
+          <img :src='(user.photoURL as any)' class='avatar'>
+        </NuxtLink>
         <font-awesome-icon v-else @click='signIn' icon='fa-solid fa-user' class='fa-fw fa-lg'/>
       </div>
     </div>

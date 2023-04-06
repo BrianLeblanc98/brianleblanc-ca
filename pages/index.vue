@@ -1,12 +1,10 @@
 <template>
-  <ClientOnly>
-    <TopNav :title='title' class='navbar'/>
-    <div class='page'>
-      <ExplodingHover />
-      <div class='placeholder' style='height: 3000px'></div>
-      <p style='margin-bottom: 20px; font-size: x-small; text-align: center;'>:)</p>
-    </div>
-  </ClientOnly>
+  <TopNav :title='title' class='navbar'/>
+  <div class='page'>
+    <ExplodingHover />
+    <div class='placeholder' style='height: 3000px'></div>
+    <p style='margin-bottom: 20px; font-size: x-small; text-align: center;'>:)</p>
+  </div>
 </template>
 
 <script lang='ts' setup>
