@@ -4,6 +4,10 @@
       <NuxtLink class='link' to='/'>
         <font-awesome-icon icon='fa-solid fa-home' class='fa-fw fa-lg'/>
       </NuxtLink>
+      <div class='link'>
+        <img v-if='user' :src='user.photoURL as any' class='avatar'>
+        <font-awesome-icon v-else @click='signIn' icon='fa-solid fa-user' class='fa-fw fa-lg'/>
+      </div>
     </div>
     <div class='section' id='title'>
       <span class='title'>{{ $props.title }}</span>
@@ -23,7 +27,13 @@
 </template>
 
 <script lang='ts' setup>
+const { user, fireBaseSignIn } = useFireBaseAuth();
+
 defineProps(['title']);
+
+function signIn() {
+  fireBaseSignIn();
+}
 </script>
 
 <style lang='scss' scoped>
@@ -45,6 +55,12 @@ nav {
     padding: 0.5rem;
     .link {
       color: rgb(75, 75, 75);
+      .avatar {
+        vertical-align: middle;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+      }
     }
 
     &#home {

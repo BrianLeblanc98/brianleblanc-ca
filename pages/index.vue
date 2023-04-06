@@ -6,7 +6,7 @@
       <div class='placeholder' style='height: 3000px'></div>
       <p style='margin-bottom: 20px; font-size: x-small; text-align: center;'>:)</p>
     </div>
-    </ClientOnly>
+  </ClientOnly>
 </template>
 
 <script lang='ts' setup>
