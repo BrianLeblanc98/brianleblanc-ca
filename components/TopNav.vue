@@ -57,6 +57,7 @@ nav {
     padding: 0.5rem;
     .link {
       color: rgb(75, 75, 75);
+      cursor: pointer;
       .avatar {
         vertical-align: middle;
         width: 22px;
